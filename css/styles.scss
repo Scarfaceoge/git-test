@@ -20,8 +20,10 @@ h2 {
     color: $color-primary;
 }
 
-header h2 {
+header {
+    h2 {
     color: $color-pale;
+    }
 }
 
 .site-footer {
@@ -46,4 +48,10 @@ header h2 {
 
 .carousel-caption {
     background-color: $color-black-transparent;
+}
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
